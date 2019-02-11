@@ -1,0 +1,39 @@
+<RCC>
+  <qresource prefix="toolbar-image">
+    <file>../icon/toolbar_pic/archive.png</file>
+    <file>../icon/toolbar_pic/information-frame.png</file>
+    <file>../icon/toolbar_pic/information.png</file>
+    <file>../icon/toolbar_pic/monitor.png</file>
+    <file>../icon/toolbar_pic/equalizer.png</file>
+    <file>../icon/toolbar_pic/gears.png</file>
+    <file>../icon/toolbar_pic/application.png</file>
+    <file>../icon/toolbar_pic/oscilloscope.png</file>
+    <file>../icon/toolbar_pic/clock.png</file>
+    <file>../icon/toolbar_pic/alert.png</file>
+    <file>../icon/toolbar_pic/oscilloscope.png</file>
+    <file>../icon/toolbar_pic/chart-bar-up.png</file>
+    <file>../icon/toolbar_pic/chart-area-up.png</file>
+    <file>../icon/toolbar_pic/site-map.png</file>
+    <file>../icon/toolbar_pic/printer.png</file>
+    <file>../icon/toolbar_pic/save.png</file>
+    <file>../icon/toolbar_pic/folder.png</file>
+    <file>../icon/toolbar_pic/chart-pie.png</file>
+    <file>../icon/toolbar_pic/chart-bar.png</file>
+    <file>../icon/toolbar_pic/hard-drive-download.png</file>
+    <file>../icon/toolbar_pic/dashboard.png</file>
+    <file>../icon/toolbar_pic/pause.png</file>
+    <file>../icon/toolbar_pic/pause-camcorder.png</file>
+    <file>../icon/toolbar_pic/play.png</file>
+    <file>../icon/toolbar_pic/presentation.png</file>
+    <file>../icon/toolbar_pic/set-filter.png</file>
+    <file>../icon/toolbar_pic/stop.png</file>
+    <file>../icon/toolbar_pic/CHA-cross.png</file>
+  </qresource>
+  <qresource prefix="mainwindow">
+    <file>../icon/mainwindow/snail.png</file>
+  </qresource>
+  <qresource prefix="mydashboard">
+    <file>../icon/mydashboard/dashboard3.png</file>
+    <file>../icon/mydashboard/realdashboard-pointer.png</file>
+  </qresource>
+</RCC>

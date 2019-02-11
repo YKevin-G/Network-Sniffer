@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>694</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>dsddsds</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>xaxs</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>xs</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>dfsdsd</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>ddd</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>sdas</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>sas</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>sasas</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>300</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>Uwsdds</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Dsdds</string>
+     </property>
+    </item>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>treeWidget</sender>
+   <signal>itemClicked(QTreeWidgetItem*,int)</signal>
+   <receiver>tableWidget</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>285</x>
+     <y>435</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>54</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tableWidget</sender>
+   <signal>cellClicked(int,int)</signal>
+   <receiver>treeWidget</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>209</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>234</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

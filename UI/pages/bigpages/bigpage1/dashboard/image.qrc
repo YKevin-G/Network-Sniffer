@@ -1,0 +1,8 @@
+<RCC>
+<qresource prefix="mainwindow">
+<file alias="icons/add.png">dashboard3.png</file>
+<file alias="icons/appicon.png">dashboard-pointer.png</file>
+<file alias="icons/button.png">dashboard-pointer2.png</file>
+</qresource>
+</RCC>
+

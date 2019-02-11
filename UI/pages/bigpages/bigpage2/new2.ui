@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>frame</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>interface id</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>encapsulastion type</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>arrivetime</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Time shift for this packet : 0seconds</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>epoch time</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>time delta from previous captured frame </string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>time delta from previous displayed frame</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>frame number</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>frame length</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>capture length</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>frame is masked:false</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>frame is ignored</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>protocols in frame</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>color rule name:***</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>color rule string:***</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>ethernet</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>destination mac</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>source mac</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>pppoe</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>version:1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>type:1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>session id:0x6237</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>payload length:42</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>ipv4</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>version</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>header length</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>type of operation</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>total length</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>identification of header and data</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1 represent more fragment and 0 rep None</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0 rep fragment and 1 rep None</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>reverse Unuse</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>offset</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ttl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>protocol</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>check sum</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>src ip</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>dst ip</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>udp</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>src port</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>dst port</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>the len of pkt</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>fake sum</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>tcp</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>src port </string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>dst port</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>pkt sequence</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>pkt ack</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>tcp data start palce</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>tcp flag</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>the senders window</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>checksum</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>botttom of urgent data</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
