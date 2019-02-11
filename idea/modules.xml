@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Sniffer pro.iml" filepath="$PROJECT_DIR$/.idea/Sniffer pro.iml" />
+      <module fileurl="file://E:/pythonProjects/TWebChat/.idea/TWebChat.iml" filepath="E:/pythonProjects/TWebChat/.idea/TWebChat.iml" />
+      <module fileurl="file://E:/pythonProjects/dataAnalysisDDoS/.idea/dataAnalysisDDoS.iml" filepath="E:/pythonProjects/dataAnalysisDDoS/.idea/dataAnalysisDDoS.iml" />
+    </modules>
+  </component>
+</project>
